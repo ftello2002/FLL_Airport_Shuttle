@@ -1,0 +1,358 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  .head{
+    text-align: center;
+    font-size: 35px;
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/pattern2.jpg);
+    background-repeat: repeat;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+  }
+
+  .welcome{
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    padding: 150px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .welcome-div{
+    padding-bottom: 100px;
+  }
+  .welcome-title{
+    font-size: 80px;
+    color: white;
+  }
+
+  .welcome-body{
+    color: whitesmoke;
+    font-size: 40px;
+  }
+  
+  header {
+    background-image: url(images/pattern5.avif);
+    padding: 20px;
+    color: #fff;
+    border-top: 1rem solid;
+    border-bottom: 1rem solid;
+    border-color: black;
+    border-width: 5px;
+
+    
+  }
+  
+  .where{
+    width: auto;
+    height: 350px;
+    overflow:hidden;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    
+  }
+
+  .where-title{
+    width: auto;
+    height: 45px;
+    position: absolute;
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 30px;
+    background-image: url(images/pattern5.avif);
+    padding: 10px 0;
+    border-bottom: 5px solid black;
+    top: 0%;
+    padding-inline: 40% 50%;
+    transition: 2s;
+  }
+
+ 
+
+  .where-img{
+    width:100%;
+    object-fit: cover;
+    
+  }
+
+
+  .where-body{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    position: absolute;
+    background-color: #1f1f1f2a;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1.5s;
+  }
+
+  .where-info{
+    font-size: 20px;
+    line-height: 45px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 300;
+  }
+
+
+
+    
+  .where:hover .where-body{
+    bottom: 0;
+  }
+
+  .where:hover .where-title{
+    top: -100%;
+  }
+
+  .airports{
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    transition: 1.5s;
+  }
+
+  .airports-title{
+    width: auto;
+    height: 30px;
+    position: absolute;
+    color: #000000;
+    margin-top:auto  ;
+    padding: 0 50% 30px 45% ;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 40px;
+    background-image: url(images/pattern5.avif);
+    border-bottom: 5px solid black;
+    top: 0%;
+    transition: 2s;
+    
+  }
+
+  .airports-img{
+    width:100%;
+    object-fit:cover;
+    height: 670px;
+    
+  }
+
+  .airports-body{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    position: absolute;
+    background-color: #1f1f1f2a;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1.5s;
+  }
+
+  .airports-info{
+    font-size: 35px;
+    line-height: 45px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 300;
+  }
+
+    
+  .airports:hover .airports-body{
+    bottom: 0;
+  }
+  
+  .airports:hover .airports-title{
+    top: -100%;
+  }
+
+  .airports:hover {
+    filter: grayscale(0);
+  }
+
+  
+  .seaports{
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    transition: 1.5s;
+  }
+
+  .seaports-title{
+    width: auto;
+    height: 40px;
+    position: absolute;
+    color: #000000;
+    white-space: nowrap;
+    font-size: 40px;
+    background-image: url(images/pattern5.avif);
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    top: 0%;
+    padding-inline: 45% 55%;
+    transition: 2s;
+  }
+
+  .seaports-img{
+    width:100%;
+    object-fit: cover;
+    height: 400px;
+
+  }
+
+  .seaports-body{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    position: absolute;
+    background-color: #1f1f1f2a;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1.5s;
+  }
+
+  .seaports-info{
+    font-size: 35px;
+    line-height: 45px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 300;
+  }
+  
+  .seaports:hover .seaports-title{
+    top: -100%;
+  }
+
+  .seaports:hover .seaports-body{
+    bottom: 0;
+  }
+  .seaports:hover{
+    filter: grayscale(0);
+  }
+
+  .countys{
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    transition: 1.5s;
+  }
+
+  .countys-title{
+    width: auto;
+    height: 40px;
+    position: absolute;
+    color: #000000;
+    white-space: nowrap;
+    font-size: 40px;
+    background-image: url(images/pattern5.avif);
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    top: 0%;
+    padding-inline: 32% 55%;
+    transition: 2s;
+  }
+
+  .countys-img{
+    width:100%;
+    object-fit:cover;
+    min-height: 350px;
+    max-height: 650px
+  }
+
+  .countys-body{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    position: absolute;
+    background-color: #1f1f1f2a;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1.5s;
+  }
+
+  .countys-info{
+    font-size: 35px;
+    line-height: 45px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 300;
+  }
+
+  .countys:hover .countys-title{
+    top: -100%;
+  }
+
+  .countys:hover .countys-body{
+    bottom: 0;
+  }
+
+  .countys:hover{
+    filter: grayscale(0);
+  }
+  
+  .cta-button {
+    padding: 10px 10px 60px 10px;
+    margin-top: 80px;
+    text-align: center;
+    height: 150px;
+    
+  }
+
+  .button-text{
+    color: #fff;
+    background-color: rgba(31, 189, 44, 0.795);
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+  }
+
+
+footer {
+  background-image: url(images/pattern5.avif);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-top: 1rem solid;
+  border-bottom: 1rem solid;
+  border-color: black;
+  border-width: 5px;
+  font-size: 30px;
+}
+  
